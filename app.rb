@@ -10,7 +10,5 @@ get '/secret' do
 end
 
 get '/cat' do
-  "<div>
-    <img src='http://placekitten.com/500/500'>
-  </div>"
+  erb(:index)
 end
