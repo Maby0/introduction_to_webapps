@@ -6,5 +6,11 @@ get '/' do
 end
 
 get '/secret' do
-  "secret message.."
+  "secret message"
+end
+
+get '/cat' do
+  "<div>
+    <img src='http://placekitten.com/500/500'>
+  </div>"
 end
